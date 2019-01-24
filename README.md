@@ -1,4 +1,4 @@
-# Engine Chrome Extension Tool
+# Chrome Extension Tool
 
 This extension will help our investigation, test our development within the any web-site.
 
