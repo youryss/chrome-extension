@@ -1,0 +1,30 @@
+.tabs {
+  background: var(--tabs-bg);
+  padding: 0 !important;
+}
+
+.tabs .tab {
+  border-right: 1px var(--tabs-border) solid;
+  padding: 0 !important;
+}
+
+.tabs .tab:last-of-type {
+  border-right: none;
+}
+
+.tabs .tab a {
+  width: 100%;
+  padding: var(--padding-tabs);
+  text-align: center;
+  display: block;
+  color: var(--grey-color);
+  text-transform: uppercase;
+  box-shadow: inset -1px -1px 39px -6px rgba(0, 0, 0, 0.38);
+  border-bottom: 4px var(--grey-color) solid;
+}
+
+.tabs .tab a:hover, .tabs .tab.active a {
+  color: var(--white-color);
+  box-shadow: none;
+  border-bottom: 4px var(--secondary-color) solid;
+}

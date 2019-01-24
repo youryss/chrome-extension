@@ -1,0 +1,43 @@
+.btn {
+  border: none;
+  background: var(--grey-color);
+  cursor: pointer;
+}
+
+.btn.btn-action {
+  width: 100%;
+  padding: 2.5%;
+}
+
+.btn.btn-primary {
+  background: var(--primary-color);
+  color: var(--white-color);
+}
+
+.btn.btn-primary:hover {
+  background: var(--secondary-color);
+}
+
+.btn.btn-default {
+  background: var(--grey-color);
+  color: var(--white-color);
+}
+
+.btn.btn-default:hover {
+  background: var(--secondary-color);
+}
+
+.btn.btn-danger {
+  background: var(--ternary-color);
+  color: var(--white-color);
+}
+
+.btn.btn-danger:hover {
+  background: var(--ternary-color-darker);
+}
+
+.btn.stick-footer {
+  position: fixed;
+  bottom: 0;
+  padding: 20px;
+}

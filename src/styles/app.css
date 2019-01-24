@@ -1,0 +1,23 @@
+body {
+  background: var(--bg-color);
+  color: var(--black-color);
+  font-size: var(--font-size-default) !important;
+  font-family: 'Roboto', 'Verdana';
+  margin: 0 0 30px 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+@import url("./reset.css");
+
+@import url("./settings.css");
+
+@import url("./grid.css");
+
+@import url("./button.css");
+
+@import url("./helpers.css");
+
+@import url("./tabs.css");

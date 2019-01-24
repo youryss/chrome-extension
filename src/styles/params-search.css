@@ -1,0 +1,27 @@
+.params-search {
+  padding: var(--padding-params-parser) 0;
+  border-bottom: 0.5px var(--border-color-params-parser) solid;
+}
+
+.params-search [class*="col-"] {
+  padding: 0 var(--padding-params-parser);
+}
+
+.params-search input[type="text"] {
+  width: 50%;
+  background: transparent;
+  border: none;
+  color: var(--primary-color);
+  border-bottom: 0.5px var(--primary-color) solid;
+  padding: 10px;
+}
+
+.params-search button.btn-remove-param {
+  background: transparent;
+  font-size: var(--font-size-large);
+  color: var(--secondary-color);
+}
+
+.params-search button.btn-remove-param:hover {
+  background: transparent;
+}

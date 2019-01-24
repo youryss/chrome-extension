@@ -1,0 +1,40 @@
+{
+  "manifest_version": 2,
+  "name": "Parse Search Params",
+  "description": "This extension allows the user have a prettier view for search params",
+  "version": "1.0",
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "applications": {
+    "gecko": {
+      "id": "engine@cartrawler.com"
+    }
+  },
+  "permissions": [
+    "activeTab",
+    "storage",
+    "tabs",
+    "<all_urls>"
+  ],
+  "background": {
+    "scripts": [
+      "background.js",
+      "browser-polyfill.min.js"
+    ]
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "http://*/*",
+        "https://*/*"
+      ],
+      "js": [
+        "browser-polyfill.min.js",
+        "inject.js"
+      ],
+      "all_frames": true
+    }
+  ]
+}

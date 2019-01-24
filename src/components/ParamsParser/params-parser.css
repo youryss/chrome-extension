@@ -1,0 +1,64 @@
+.params-parser {
+  padding-bottom: 60px;
+}
+
+.params-parser .params-parser-item, .params-parser .params-parser-header {
+  padding: 0;
+  border-bottom: 0.5px var(--border-color-params-parser) solid;
+  overflow: hidden;
+}
+
+.params-parser .params-parser-item {
+  border-left: 3px var(--secondary-color) solid;
+}
+
+html body .params-parser div.params-parser-item.highlighted {
+  background: var(--grey-color);
+  color: var(--white-color);
+}
+
+html body .params-parser div.params-parser-item.highlighted input {
+  color: var(--white-color);
+}
+
+.params-parser .params-parser-header {
+  border-top: 0.5px var(--border-color-params-parser) solid;
+  background: var(--primary-color);
+  color: var(--white-color);
+  font-size: var(--font-size-params-parser-header);
+}
+
+.params-parser .params-parser-header > div {
+  padding: var(--padding-params-parser);
+}
+
+.params-parser .params-parser-header .params-parser-item--key {
+  font-weight: bold;
+}
+
+.params-parser .params-parser-item > div {
+  padding: var(--padding-params-parser);
+  overflow-wrap: break-word;
+  font-size: var(--font-size-params-parser-item);
+  float: left;
+}
+
+.params-parser .params-parser-item:nth-of-type(even) {
+  background: var(--border-color-list-strips);
+}
+
+.params-parser .params-parser-item .params-parser-item--key {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.params-parser .params-parser-item .params-parser-item--value {
+  border-left: 0.3px var(--border-color-params-parser) solid;
+}
+
+.params-parser .params-parser-item input {
+  border: none;
+  color: var(--black-color);
+  background: transparent;
+  width: 100%;
+}

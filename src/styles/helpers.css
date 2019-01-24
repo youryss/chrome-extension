@@ -1,0 +1,25 @@
+.text-right {
+  text-align: right;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.stick-footer {
+  position: fixed;
+  bottom: 0;
+  padding: 20px;
+}
+
+.show-item {
+  display: inline-block;
+}
+
+.hide-item {
+  display: none;
+}
