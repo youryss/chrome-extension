@@ -1,4 +1,4 @@
-# Chrome Extension Tool
+# Chrome Extension Params Tool
 
 This extension will help our investigation, test our development within the any web-site.
 
